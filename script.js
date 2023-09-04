@@ -1,5 +1,5 @@
 function play() {
-var audio = new Audio('https://foryou.js.cool/Dandelions.mp3');audio.play();}
+var audio = new Audio('https://sahabee.eu.org/foryou/Dandelions.mp3');audio.play();}
 function nonFt() {document.getElementById('foto').style.display = "none";} function showFt() {document.getElementById('foto').style.display = "block";}
   function nonDiv() {document.getElementById('Content').style.display = "none";} function showDiv() {document.getElementById('Content').style.display = "block";}
   function trm() {document.getElementById('trm').style.margin = "0";}
