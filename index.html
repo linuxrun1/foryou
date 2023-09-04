@@ -30,7 +30,7 @@
             var today = new Date();var date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear()+'.';var dateTime = date;
             var swals = Swal
             async function mulai(){
-                var { value: nama } = "Winn";
+                var nama = "Winn";
                   /*await swals.fire({
                     title: 'Nama kamu?',
                     input: 'text',
@@ -38,7 +38,7 @@
                     allowOutsideClick: false,
                     showCancelButton: false,
                 });*/                           
-                if("winn"){
+                if(nama){
                   play();
                 	window.nama = "Winn";
                     text2 = "Dari: " + author + ", untuk: " + window.nama + ".";
