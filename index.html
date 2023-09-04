@@ -30,13 +30,14 @@
             var today = new Date();var date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear()+'.';var dateTime = date;
             var swals = Swal
             async function mulai(){
-                var { value: nama } = await swals.fire({
+                var { value: nama } = "Winn";
+                  /*await swals.fire({
                     title: 'Nama kamu?',
                     input: 'text',
                     confirmButtonText: 'Lanjut',
                     allowOutsideClick: false,
                     showCancelButton: false,
-                });                           
+                });*/                           
                 if(nama){
                   play();
                 	window.nama = nama;
