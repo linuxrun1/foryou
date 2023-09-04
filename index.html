@@ -38,9 +38,9 @@
                     allowOutsideClick: false,
                     showCancelButton: false,
                 });*/                           
-                if(nama){
+                if("winn"){
                   play();
-                	window.nama = nama;
+                	window.nama = "Winn";
                     text2 = "Dari: " + author + ", untuk: " + window.nama + ".";
                     text4 = "I Love U, " + window.nama + "!";         
                 	await swals.fire(`Hai, ${nama}! &#10084;&#65039;`);
@@ -53,7 +53,6 @@
                     mulai();
                 }
             }
-            mulai()
             async function lanjutan(){
                     var { value: sayang } = await swals.fire({
                         title: `Sebelumnya, ${nama} sayang gak sama ${author} :(`,
